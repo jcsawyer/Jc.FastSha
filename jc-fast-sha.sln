@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jc.FastSha", "src\Jc.FastSha\Jc.FastSha.csproj", "{8BC39797-32CA-424A-8020-761FB45DD0A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jc.FastSha.Tests", "src\Jc.FastSha.Tests\Jc.FastSha.Tests.csproj", "{0DED5B7E-5EC3-479B-85C9-3A00DC62B300}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jc.FastSha.Benchmarks", "src\Jc.FastSha.Benchmarks\Jc.FastSha.Benchmarks.csproj", "{F86CBBCB-81F6-45A7-A495-6C345A9FA074}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8BC39797-32CA-424A-8020-761FB45DD0A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BC39797-32CA-424A-8020-761FB45DD0A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BC39797-32CA-424A-8020-761FB45DD0A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BC39797-32CA-424A-8020-761FB45DD0A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DED5B7E-5EC3-479B-85C9-3A00DC62B300}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DED5B7E-5EC3-479B-85C9-3A00DC62B300}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DED5B7E-5EC3-479B-85C9-3A00DC62B300}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DED5B7E-5EC3-479B-85C9-3A00DC62B300}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F86CBBCB-81F6-45A7-A495-6C345A9FA074}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F86CBBCB-81F6-45A7-A495-6C345A9FA074}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F86CBBCB-81F6-45A7-A495-6C345A9FA074}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F86CBBCB-81F6-45A7-A495-6C345A9FA074}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

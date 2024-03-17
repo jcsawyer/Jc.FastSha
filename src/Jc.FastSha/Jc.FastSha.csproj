@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <Optimize>true</Optimize>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Title>Jc FastSHA</Title>
+        <Authors>Joseph Sawyer</Authors>
+        <Copyright>Joseph Sawyer</Copyright>
+        <Description>A fast SHA-2 (256) implementation in C#.</Description>
+        <PackageProjectUrl>https://jcsawyer.com/</PackageProjectUrl>
+        <PackageLicenseFile>LICENSE</PackageLicenseFile>
+        <RepositoryUrl>https://github.com/jcsawyer/Jc.FastSha/tree/main</RepositoryUrl>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+    </PropertyGroup>
+
+    <PropertyGroup>
+        
+    </PropertyGroup>
+    
+    <ItemGroup>
+        <None Include="..\..\LICENSE" Pack="true" PackagePath="" />
+        <None Include="..\..\README.md" Pack="true" PackagePath="\" />
+    </ItemGroup>
+</Project>
