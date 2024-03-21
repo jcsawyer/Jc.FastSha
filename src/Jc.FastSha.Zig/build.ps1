@@ -1,0 +1,1 @@
+zig build --build-file .\build.zig --summary all -Dtarget=native -Doptimize=ReleaseFast

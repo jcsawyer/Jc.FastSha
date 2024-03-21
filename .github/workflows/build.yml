@@ -29,9 +29,9 @@ jobs:
     - name: Restore dependencies
       run: dotnet restore
     - name: Build
-      run: dotnet build --no-restore
+      run: dotnet build src/Jc.FastSha/Jc.FastSha.csproj --no-restore
     - name: Test
-      run: dotnet test --no-build --verbosity normal
+      run: dotnet test src/Jc.FastSha.Tests/Jc.FastSha.Tests.csproj --no-build --verbosity normal
 
   pack:
   
@@ -45,7 +45,7 @@ jobs:
       with:
         dotnet-version: ${{ env.DOTNET_VERSION }}
     - name: Pack
-      run: dotnet pack --configuration Release --output ${{ env.PackageDir }}
+      run: dotnet pack src/Jc.FastSha/Jc.FastSha.csproj --configuration Release --output ${{ env.PackageDir }}
     - uses: actions/upload-artifact@v3
       with:
         name: nuget

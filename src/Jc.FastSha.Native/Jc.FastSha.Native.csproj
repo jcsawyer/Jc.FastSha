@@ -5,11 +5,11 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <Optimize>true</Optimize>
-        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-        <Title>Jc FastSHA</Title>
+        <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+        <Title>Jc FastSHA Native</Title>
         <Authors>Joseph Sawyer</Authors>
+        <Description>A fast SHA-2 (256) library in C# leveraging the std.crpyto.hash.sha2.Sha256 implementation in Zig.</Description>
         <Copyright>Joseph Sawyer</Copyright>
-        <Description>A fast SHA-2 (256) implementation in C#.</Description>
         <PackageProjectUrl>https://jcsawyer.com/</PackageProjectUrl>
         <PackageLicenseFile>LICENSE</PackageLicenseFile>
         <RepositoryUrl>https://github.com/jcsawyer/Jc.FastSha/tree/main</RepositoryUrl>
@@ -17,7 +17,15 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <Content Include="..\Jc.FastSha.Zig\zig-out\lib\Jc.FastSha.Zig.dll">
+        <Link>Jc.FastSha.Zig.dll</Link>
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+    </ItemGroup>
+
+    <ItemGroup>
         <None Include="..\..\LICENSE" Pack="true" PackagePath="" />
         <None Include="..\..\README.md" Pack="true" PackagePath="\" />
     </ItemGroup>
+
 </Project>

@@ -6,6 +6,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jc.FastSha.Tests", "src\Jc.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jc.FastSha.Benchmarks", "src\Jc.FastSha.Benchmarks\Jc.FastSha.Benchmarks.csproj", "{F86CBBCB-81F6-45A7-A495-6C345A9FA074}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jc.FastSha.Native", "src\Jc.FastSha.Native\Jc.FastSha.Native.csproj", "{5835A82E-C8D3-4AD9-BFB9-BAE1F3F78994}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jc.FastSha.Native.Tests", "src\Jc.FastSha.Native.Tests\Jc.FastSha.Native.Tests.csproj", "{AC8C3DF6-7341-4330-9CFF-CCD37E1922B8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +28,13 @@ Global
 		{F86CBBCB-81F6-45A7-A495-6C345A9FA074}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F86CBBCB-81F6-45A7-A495-6C345A9FA074}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F86CBBCB-81F6-45A7-A495-6C345A9FA074}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5835A82E-C8D3-4AD9-BFB9-BAE1F3F78994}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5835A82E-C8D3-4AD9-BFB9-BAE1F3F78994}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5835A82E-C8D3-4AD9-BFB9-BAE1F3F78994}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5835A82E-C8D3-4AD9-BFB9-BAE1F3F78994}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC8C3DF6-7341-4330-9CFF-CCD37E1922B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC8C3DF6-7341-4330-9CFF-CCD37E1922B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC8C3DF6-7341-4330-9CFF-CCD37E1922B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC8C3DF6-7341-4330-9CFF-CCD37E1922B8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

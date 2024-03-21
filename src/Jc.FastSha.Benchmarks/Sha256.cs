@@ -11,6 +11,7 @@ public class Sha256
 
     private readonly SHA256 _sha256 = SHA256.Create();
     private readonly FastSha256 _fastSha256 = new();
+    private readonly Native.FastSha256 _fastSha256Native = new();
     private readonly Memory<byte> _buffer = new(Hash);
     private static readonly byte[] Hash = new byte[32];
     
@@ -22,4 +23,7 @@ public class Sha256
 
     [Benchmark]
     public void JcFastSha256Span() => _fastSha256.ComputeHash(Data, _buffer.Span);
+    
+    [Benchmark]
+    public byte[] JcFastSha256Native() => _fastSha256Native.ComputeHash(Data);
 }
